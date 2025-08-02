@@ -651,7 +651,7 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   padding: 160px 0 60px 0;
   text-align: center;
@@ -1926,6 +1926,12 @@ section,
 
 .services-list-btn {
   margin-top: 50px;
+}
+
+.stats-item img {
+  width: 70%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 .service-details .services-list a.active {
