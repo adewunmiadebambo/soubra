@@ -621,7 +621,7 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--default-color);
+  color: #FFFFFF;
   line-height: 0;
 }
 
@@ -1924,8 +1924,29 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.project_more {
+  text-align: center;
+}
+
+.project_more button {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.project_more button:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.project_more {
+  margin-top: 70px;
+}
+
 .services-list-btn {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .stats-item img {
